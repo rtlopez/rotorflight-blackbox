@@ -85,7 +85,7 @@ jobs:
       run: make version SEMVER="0.0.0-${{ env.GIT_VER }}"
 
     - name: Initialise build environment
-      run: yarn install
+      run: yarn install --verbose
 
     - name: Build release for MacOS
       run: yarn gulp release --osx64

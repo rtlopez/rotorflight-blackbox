@@ -50,7 +50,8 @@
     "yarn": "^1.22.0"
   },
   "optionalDependencies": {
-    "appdmg": "^0.6.4"
+    "appdmg": "^0.6.4",
+    "nan": "^2.20.0"
   },
   "resolutions": {
     "**/**/lodash.template": "^4.5.0"
