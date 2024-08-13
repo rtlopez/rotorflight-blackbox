@@ -50,11 +50,11 @@
     "yarn": "^1.22.0"
   },
   "optionalDependencies": {
-    "appdmg": "^0.6.4",
-    "nan": "^2.20.0"
+    "appdmg": "^0.6.4"
   },
   "resolutions": {
-    "**/**/lodash.template": "^4.5.0"
+    "**/**/lodash.template": "^4.5.0",
+    "**/**/nan": "^2.20.0"
   },
   "engines": {
     "node": "22.x"
